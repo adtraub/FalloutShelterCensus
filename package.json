@@ -1,0 +1,34 @@
+{
+  "name": "falloutsheltercensus",
+  "version": "1.0.0",
+  "description": "Creates a Census of a fallout shelter",
+  "main": "index.js",
+  "scripts": {
+    "test": {
+      "test": "mocha",
+      "start": "index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adtraub/FalloutShelterCensus.git"
+  },
+  "keywords": [
+    "Fallout",
+    "Shelter",
+    "Data",
+    "Visualization"
+  ],
+  "author": "Adam Traub",
+  "license": "Modified MIT",
+  "bugs": {
+    "url": "https://github.com/adtraub/FalloutShelterCensus/issues"
+  },
+  "homepage": "https://github.com/adtraub/FalloutShelterCensus#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "request": "^2.83.0"
+  }
+}
